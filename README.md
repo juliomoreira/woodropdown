@@ -1,12 +1,12 @@
 # Woodropdown
 
-Woodropdown is a simple CSS/jQuery plugin to customize <select> HTML tags.
+Woodropdown is a simple CSS/jQuery plugin to customize [select] HTML tags.
 
 
 ## How it works
 
-It does not customize the <select> tag itself, it does fake the element and its UI interactions by creating a anchor <a> tag for triggering
-the interactions an a <ul> element and <li><a> as a <option> replacement.
+It does not customize the [select] tag itself, it does fake the element and its UI interactions by creating a anchor [a] tag for triggering
+the interactions an a [ul] element and [li][a] as a [option] replacement.
 
 ## How to use it
 
