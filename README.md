@@ -2,7 +2,6 @@
 
 Woodropdown is a simple CSS/jQuery plugin to customize `<select>` HTML tags.
 
-
 ## How it works
 
 It does not customize the `<select>` tag itself, it does fake the element and its UI interactions by creating a anchor `<a>` tag for triggering
@@ -16,11 +15,9 @@ Well, if you are not sure how to implement it, i suggest you to search for a sim
 
 * Todo
 
-
 ## Documentation
 
 Todo
-
 
 ## Contributing
 
