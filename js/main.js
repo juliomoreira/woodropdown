@@ -107,7 +107,7 @@ function ClaudioSelect()
 									return false;
 								}
 								$fakeselect.addClass('opened');
-								$this.slideDown('fast');
+								$this.fadeIn('fast');
 							}
 						)
 						.bind
@@ -120,7 +120,7 @@ function ClaudioSelect()
 									return false;
 								}
 								$fakeselect.removeClass('opened');
-								$this.slideUp('fast');
+								$this.fadeOut('fast');
 							}
 						)
 						.bind

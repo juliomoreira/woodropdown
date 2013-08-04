@@ -97,28 +97,18 @@ textarea {
    Claudio Select Styles
    ========================================================================== */
 
+/* Structure Styles */
 .select-field
 {
     float: left;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-size: 16px;
     height: 31px;
-    margin: 0;
     padding: 0;
     position: relative;
     width: 100%;
 }
-
-.select-field.blue a.select,
-.select-field.blue a.select .select-handle
-{
-    background-color: #358ed4;
-}
-
     .select-field select.select
     {
         height: 31px;
-        line-height: 31px;
         position: relative;
         width: 100%;
         z-index: 1;
@@ -126,32 +116,19 @@ textarea {
 
     .select-field a.select
     {
-        background-color: #6d6d6d;
-        border-radius: 5px;
         bottom: 0;
-        color: #ffffff;
         display: block;
         float: left;
         height: 31px;
         left: 0;
-        line-height: 31px;
         margin: 0;
         padding: 0;
         position: absolute;
-        text-decoration: none;
-        text-indent: 5px;
         width: 100%;
-    }
-
-    .select-field a.select:hover
-    {
-        text-decoration: none;
     }
 
         .select-field a.select .select-handle
         {
-            background-color: #ffcb05;
-            border-radius: 0 5px 5px 0;
             position: absolute;
             top: 0;
             right: 0;
@@ -164,10 +141,6 @@ textarea {
 
             .select-field a.select .select-handle .icon
             {
-                background-color: transparent;
-                background-image: url(../img/select-arrows.png);
-                background-repeat: no-repeat;
-                background-position: center;
                 display: block;
                 height: 100%;
                 margin: 0;
@@ -177,14 +150,12 @@ textarea {
 
     .select-field .drop
     {
-        background: #878787;
-        border-radius: 5px;
         position: absolute;
         top: 100%;
         left: 0;
-        margin-top: 2px;
         min-width: 100%;
         overflow: hidden;
+        margin: 0;
         padding: 0;
         width: auto;
     }
@@ -194,37 +165,98 @@ textarea {
             float: left;
             height: 31px;
             margin: 0;
-            overflow: hidden;
             padding: 0;
             width: 100%;
         }
             .select-field .drop li a
             {
-                color: #ffffff;
                 display: block;
                 margin: 0;
                 padding: 0;
+                position: relative;
+                white-space: nowrap;
+                width: 100%;
+            }
+
+/* Text Styles */
+.select-field
+{
+    font-size: 16px;
+}
+
+    .select-field select.select
+    {
+        line-height: 31px;
+    }
+
+    .select-field a.select
+    {
+        color: #ffffff;
+        line-height: 31px;
+        text-decoration: none;
+        text-indent: 5px;
+    }
+
+    .select-field a.select:hover
+    {
+        text-decoration: none;
+    }
+            .select-field .drop li a
+            {
+                color: #ffffff;
                 text-decoration: none;
                 text-indent: 5px;
                 line-height: 31px;
                 white-space: nowrap;
-                width: 100%;
             }
-            .select-field .drop li:first-child a
+            .select-field .drop li a:hover
+            {
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+/* Eshetical Styles */
+
+.select-field.blue a.select,
+.select-field.blue a.select .select-handle
+{
+    background-color: #358ed4;
+}
+    .select-field a.select
+    {
+        background-color: #6d6d6d;
+        border-radius: 5px;
+    }
+        .select-field a.select .select-handle
+        {
+            background-color: #ffcb05;
+            border-radius: 0 5px 5px 0;
+        }
+            .select-field a.select .select-handle .icon
+            {
+                background-color: transparent;
+                background-image: url(../img/select-arrows.png);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+    .select-field .drop
+    {
+        background: #878787;
+        border-radius: 5px;
+    }
+/*            .select-field .drop li:first-child a
             {
                 border-radius: 5px 5px 0 0;
             }
             .select-field .drop li:last-child a
             {
                 border-radius: 0 0 5px 5px;
-            }
+            }*/
             .select-field .drop li a:hover
             {
-                color: #ffffff;
                 background-color: #a1a1a1;
-                text-decoration: none;
             }
-
 
 /* ==========================================================================
    Helper classes

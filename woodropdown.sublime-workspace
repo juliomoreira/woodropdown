@@ -15,6 +15,10 @@
 		"selected_items":
 		[
 			[
+				"pro",
+				"Project: Close"
+			],
+			[
 				"packa",
 				"Package Control: Install Package"
 			]
@@ -36,6 +40,14 @@
 	},
 	"file_history":
 	[
+		"/C/xampp/htdocs/woodropdown/css/main.css",
+		"/C/xampp/htdocs/woodropdown/index.html",
+		"/C/xampp/htdocs/woodropdown/js/main.js",
+		"/C/xampp/htdocs/woodropdown/README.md",
+		"/C/xampp/htdocs/woodropdown/js/plugins.js",
+		"/C/xampp/htdocs/woodropdown/LICENSE.md",
+		"/C/xampp/htdocs/woodropdown/.gitignore",
+		"/C/xampp/htdocs/claudio_select/.gitignore",
 		"/F/Extra/org.chameleon.Boot.plist",
 		"/C/Users/Julio/AppData/Local/Temp/fz3temp-1/sidebar.php",
 		"/C/Users/Julio/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
@@ -44,7 +56,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -58,6 +70,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"]",
+			"[",
+			">",
+			"<"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -65,6 +81,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			">`",
+			"`<",
+			"]",
+			"["
 		],
 		"reverse": false,
 		"show_context": true,
@@ -86,7 +106,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -113,7 +133,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
