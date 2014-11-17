@@ -3,13 +3,13 @@ $(document)
 (
 	function()
 	{
-		ClaudioSelect();
+		woodropdown();
 	}
 );
 
-function ClaudioSelect()
+function woodropdown()
 {
-	console.log('ClaudioSelect initiated');
+	console.log('woodropdown initiated');
 	$('select.select')
 	.each
 	(
@@ -19,9 +19,9 @@ function ClaudioSelect()
 			var title  = $('option:selected', this).text(),
 				handle = '<span class="select-handle"><span class="icon icon-arrow"></span></span>';
 
-			if($(this).hasClass('claudiofakeselect'))
+			if($(this).hasClass('woodropdown'))
 			{
-				console.log('ClaudioSelect aborted on the following element:');
+				console.log('woodropdown aborted on the following element:');
 				console.log($(this));
 				return true;
 			}
@@ -37,7 +37,7 @@ function ClaudioSelect()
 				}
 
 				$(this)
-				.addClass('claudiofakeselect')
+				.addClass('woodropdown')
 				.after
 				(
 					'<a href="#" class="select">' + title + handle + '</a><ul class="drop"></ul>'
@@ -165,5 +165,5 @@ function ClaudioSelect()
 			}
 		}
 	);
-	console.log('ClaudioSelect terminated');
+	console.log('woodropdown terminated');
 }
